@@ -1,0 +1,54 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+/.pnp
+.pnp.js
+
+/.idea
+
+/run
+
+# testing
+/coverage
+
+# production
+/build
+/bundle
+/current
+/source
+
+# docs
+/doc
+/**/docExtra
+
+# misc
+.DS_Store
+build_api
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea/
+.vscode
+
+apps/soltools-frontend/node_modules
+apps/soltools-frontend/build
+
+# env
+.env
+.env.next
+.env.next.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+verified_tokens.json
+
+.gitlab-ci.yml
+
+
+
+
